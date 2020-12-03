@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DBHelper {
     public static Connection getConnection() throws Exception {
         String user = "sa";
-        String password = "sa";
+        String password = "zmp1006";
         String dataBase = "xxx";
         String host = "localhost:1434";
         String url = "jdbc:sqlserver://" + host + ";databaseName=" + dataBase + ";user=" + user + ";password=" + password;
