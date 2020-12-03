@@ -2,6 +2,9 @@
 *.Mp4
 *.jar
 
+out/
+
+server/web
 
 
 .DS_Store
